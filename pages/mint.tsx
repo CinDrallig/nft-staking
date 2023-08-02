@@ -12,7 +12,7 @@ const Mint: NextPage = () => {
       <h1 className={styles.h1}>Mint 🐺 Premium Soda Cans</h1>
 
       <p className={styles.explain}>
-        Mint your <b>🐺 Premium Soda Can</b> and start earning <b>$WOOF</b>
+        Mint your 🥤 and start earning <b>$WOOF</b>
       </p>
       <hr className={`${styles.smallDivider} ${styles.detailPageHr}`} />
 
