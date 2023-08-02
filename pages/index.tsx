@@ -23,7 +23,7 @@ const Home: NextPage = () => {
           <Image src="/icons/drop.webp" alt="drop" width={64} height={64} />
           <h2 className={styles.selectBoxTitle}>Mint 🐺 Premium Soda Can</h2>
           <p className={styles.selectBoxDescription}>
-            href="https://app.pulsex.com/swap?outputCurrency=0x13342624b9D3049fB8Ef0a15b803f704864Bb844/">Buy $WOOF to mint Wolf Cola Premium Soda Cans
+            href="https://app.pulsex.com/swap?outputCurrency=0x99528271774f2E63dc9A91Fc32586206B6328213/">Buy <b>$WOOF</b> to mint Wolf Cola Premium Soda Cans
           </p>
         </div>
 
