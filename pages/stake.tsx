@@ -74,24 +74,6 @@ const Stake: NextPage = () => {
         <ConnectWallet />
       ) : (
         <>
-          <h2>Earn 3,200% APR $WOOF</h2>
-          <div className={styles.nftBoxGrid}>
-            {ownedNfts?.map((nft) => (
-              <div className={styles.nftBox} key={nft.metadata.id.toString()}>
-                <ThirdwebNftMedia
-                  metadata={nft.metadata}
-                  className={styles.nftMedia}
-                />
-                <h3>{nft.metadata.name}</h3>
-                <Web3Button
-                  contractAddress={stakingContractAddress}
-                  action={() => stakeNft(nft.metadata.id)}
-                >
-                  Stake
-                </Web3Button>
-              </div>
-          
-          <hr className={`${styles.divider} ${styles.spacerTop}`} />
           <h2>$WOOF</h2>
           <div className={styles.tokenGrid}>
             <div className={styles.tokenItem}>
@@ -130,9 +112,27 @@ const Stake: NextPage = () => {
                   key={stakedToken.toString()}
                 />
               ))}
-            </div>
-           ))}
-         </div>
+          </div>
+
+          <hr className={`${styles.divider} ${styles.spacerTop}`} />
+          <h2>Unstaked 🐺 Premium Soda Cans</h2>
+          <div className={styles.nftBoxGrid}>
+            {ownedNfts?.map((nft) => (
+              <div className={styles.nftBox} key={nft.metadata.id.toString()}>
+                <ThirdwebNftMedia
+                  metadata={nft.metadata}
+                  className={styles.nftMedia}
+                />
+                <h3>{nft.metadata.name}</h3>
+                <Web3Button
+                  contractAddress={stakingContractAddress}
+                  action={() => stakeNft(nft.metadata.id)}
+                >
+                  Stake
+                </Web3Button>
+              </div>
+            ))}
+          </div>
         </>
       )}
     </div>
