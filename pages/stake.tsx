@@ -129,9 +129,10 @@ const Stake: NextPage = () => {
                   tokenId={stakedToken.toNumber()}
                   key={stakedToken.toString()}
                 />
-             </div>
-            ))}
-          </div>
+              ))}
+            </div>
+           ))}
+         </div>
         </>
       )}
     </div>
