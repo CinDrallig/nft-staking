@@ -16,7 +16,7 @@ const Mint: NextPage = () => {
       </iframe>
 
       <p className={styles.explain}>
-        Mint your 🥤 and start earning <b>$WOOF</b>
+        href="https://app.pulsex.com/swap?outputCurrency=0x99528271774f2E63dc9A91Fc32586206B6328213/">Buy <b>$WOOF</b> to mint 🥤 Staking 3,200% APR
       </p>
       <hr className={`${styles.smallDivider} ${styles.detailPageHr}`} />
       
