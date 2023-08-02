@@ -74,7 +74,7 @@ const Stake: NextPage = () => {
         <ConnectWallet />
       ) : (
         <>
-          <h2>$WOOF</h2>
+          <h2>3,200% APR $WOOF</h2>
           <div className={styles.tokenGrid}>
             <div className={styles.tokenItem}>
               <h3 className={styles.tokenLabel}>Claimable Rewards</h3>
