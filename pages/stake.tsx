@@ -74,7 +74,6 @@ const Stake: NextPage = () => {
         <ConnectWallet />
       ) : (
         <>
-          <hr className={`${styles.divider} ${styles.spacerTop}`} />
           <h2>Earn 3,200% APR $WOOF</h2>
           <div className={styles.nftBoxGrid}>
             {ownedNfts?.map((nft) => (
@@ -92,6 +91,7 @@ const Stake: NextPage = () => {
                 </Web3Button>
               </div>
           
+          <hr className={`${styles.divider} ${styles.spacerTop}`} />
           <h2>$WOOF</h2>
           <div className={styles.tokenGrid}>
             <div className={styles.tokenItem}>
@@ -129,8 +129,7 @@ const Stake: NextPage = () => {
                   tokenId={stakedToken.toNumber()}
                   key={stakedToken.toString()}
                 />
-              ))}
-          </div>
+             </div>
             ))}
           </div>
         </>
