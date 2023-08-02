@@ -9,11 +9,10 @@ const Mint: NextPage = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.h1}>Mint An NFT!</h1>
+      <h1 className={styles.h1}>Mint 🐺 Premium Soda Cans</h1>
 
       <p className={styles.explain}>
-        Here is where we use our <b>NFT Drop</b> contract to allow users to mint
-        one of the NFTs that we lazy minted.
+        Mint your <b>🐺 Premium Soda Can</b> and start earning <b>$WOOF</b>
       </p>
       <hr className={`${styles.smallDivider} ${styles.detailPageHr}`} />
 
@@ -29,7 +28,7 @@ const Mint: NextPage = () => {
           alert(error);
         }}
       >
-        Claim An NFT
+        Claim
       </Web3Button>
     </div>
   );
