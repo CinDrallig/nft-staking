@@ -1,9 +1,10 @@
+import { Pulsechain } from "@thirdweb-dev/chains";
 import { ThirdwebProvider } from "@thirdweb-dev/react";
 import type { AppProps } from "next/app";
 import "../styles/globals.css";
 
 // This is the chain your dApp will work on.
-const activeChain = "mumbai";
+const activeChain = "Pulsechain";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
