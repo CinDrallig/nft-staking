@@ -4,3 +4,4 @@ export const tokenContractAddress =
   "0x99528271774f2E63dc9A91Fc32586206B6328213";
 export const stakingContractAddress =
   "0xc2584b9B1e63441975391D2dF1f72A6d89AcDf9A";
+export const clientId = "fb5b78b67cf8fd462d6adb08086cc98b";
