@@ -11,11 +11,15 @@ const Mint: NextPage = () => {
     <div className={styles.container}>
       <h1 className={styles.h1}>Mint 🐺 Premium Soda Cans</h1>
 
+      <iframe width="420" height="315"
+        src="https://wolfcola.co/assets/videos/video01.mp4?v=e7675bf8">
+      </iframe>
+
       <p className={styles.explain}>
         Mint your 🥤 and start earning <b>$WOOF</b>
       </p>
       <hr className={`${styles.smallDivider} ${styles.detailPageHr}`} />
-
+      
       <Web3Button
         theme="dark"
         contractAddress={nftDropContractAddress}
