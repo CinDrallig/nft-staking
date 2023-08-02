@@ -103,8 +103,8 @@ const Stake: NextPage = () => {
           </Web3Button>
 
           <hr className={`${styles.divider} ${styles.spacerTop}`} />
-          <h2>Staked</h2>
           <img src="https://wolfcola.co/assets/images/image09.png?v=e7675bf8" alt="🐺 Premium Soda Can">
+          <h2>Staked</h2>
           <div className={styles.nftBoxGrid}>
             {stakedTokens &&
               stakedTokens[0]?.map((stakedToken: BigNumber) => (
@@ -116,8 +116,8 @@ const Stake: NextPage = () => {
           </div>
 
           <hr className={`${styles.divider} ${styles.spacerTop}`} />
-          <h2>Unstaked</h2>
           <img src="https://wolfcola.co/assets/images/image09.png?v=e7675bf8" alt="🐺 Premium Soda Can">
+          <h2>Unstaked</h2>
           <div className={styles.nftBoxGrid}>
             {ownedNfts?.map((nft) => (
               <div className={styles.nftBox} key={nft.metadata.id.toString()}>
