@@ -36,8 +36,8 @@ const Home: NextPage = () => {
           <Image src="/icons/token.webp" alt="token" width={64} height={64} />
           <h2 className={styles.selectBoxTitle}>Stake 🐺 Premium Soda Cans </h2>
           <p className={styles.selectBoxDescription}>
-            Use the custom staking contract deployed via <b>thirdweb Deploy</b>{" "}
-            to stake your NFTs, and earn tokens from the <b>Token</b> contract.
+            The quickest way to earn <b>$WOOF</b>{" "}
+            Earn <b>3,200% APR</b>.
           </p>
         </div>
       </div>
