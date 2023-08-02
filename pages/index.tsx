@@ -36,8 +36,7 @@ const Home: NextPage = () => {
           <Image src="/icons/token.webp" alt="token" width={64} height={64} />
           <h2 className={styles.selectBoxTitle}>Stake 🐺 Premium Soda Cans </h2>
           <p className={styles.selectBoxDescription}>
-            The quickest way to earn <b>$WOOF</b>{" "}
-            Earn <b>3,200% APR</b>.
+            Earn <b>3,200% APR</b> $WOOF.
           </p>
         </div>
       </div>
