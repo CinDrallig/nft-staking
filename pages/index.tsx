@@ -12,6 +12,7 @@ const Home: NextPage = () => {
       <h1 className={styles.h1}>Wolf Cola Premium Soda Can</h1>
       <p className={styles.description}>
           Stake Premium Soda Can NFTs, Earn $WOOF!
+          Cost to mint 1 CAN = 1M $WOOF
         </p>
       <div className={styles.nftBoxGrid}>
         <div
