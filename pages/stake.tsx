@@ -74,7 +74,7 @@ const Stake: NextPage = () => {
         <ConnectWallet />
       ) : (
         <>
-          <h2>3,200% APR $WOOF</h2>
+          <h2>$WOOF</h2>
           <div className={styles.tokenGrid}>
             <div className={styles.tokenItem}>
               <h3 className={styles.tokenLabel}>Claimable Rewards</h3>
@@ -103,8 +103,7 @@ const Stake: NextPage = () => {
           </Web3Button>
 
           <hr className={`${styles.divider} ${styles.spacerTop}`} />
-          <img src="https://wolfcola.co/assets/images/image09.png?v=e7675bf8" alt="🐺 Premium Soda Can">
-          <h2>Staked</h2>
+          <h2>Staked 🐺 Premium Soda Cans</h2>
           <div className={styles.nftBoxGrid}>
             {stakedTokens &&
               stakedTokens[0]?.map((stakedToken: BigNumber) => (
@@ -116,8 +115,7 @@ const Stake: NextPage = () => {
           </div>
 
           <hr className={`${styles.divider} ${styles.spacerTop}`} />
-          <img src="https://wolfcola.co/assets/images/image09.png?v=e7675bf8" alt="🐺 Premium Soda Can">
-          <h2>Unstaked</h2>
+          <h2>Unstaked 🐺 Premium Soda Cans</h2>
           <div className={styles.nftBoxGrid}>
             {ownedNfts?.map((nft) => (
               <div className={styles.nftBox} key={nft.metadata.id.toString()}>
